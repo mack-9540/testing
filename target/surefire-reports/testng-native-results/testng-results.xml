@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-10T22:28:15 IST" name="Command line suite" finished-at="2021-04-10T22:28:15 IST" duration-ms="27">
+    <groups>
+      <group name="sanity">
+        <method signature="Testcase1.test1()[pri:0, instance:testsuite.Testcase1@72057ecf]" name="test1" class="testsuite.Testcase1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2021-04-10T22:28:15 IST" name="Command line test" finished-at="2021-04-10T22:28:15 IST" duration-ms="27">
+      <class name="testsuite.Testcase2">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="BeforeTest" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="afterMethod" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="beforeMethod" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="afterTest" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="test3()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="test3" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="afterTest" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="test4()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="test4" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="BeforeTest" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="afterMethod" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testsuite.Testcase2@1afd44cb]" started-at="2021-04-10T22:28:15 IST" name="beforeMethod" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- testsuite.Testcase2 -->
+      <class name="testsuite.Testcase1">
+        <test-method signature="test1()[pri:0, instance:testsuite.Testcase1@72057ecf]" started-at="2021-04-10T22:28:15 IST" name="test1" finished-at="2021-04-10T22:28:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:testsuite.Testcase1@72057ecf]" started-at="2021-04-10T22:28:15 IST" name="test2" description="This is test2" finished-at="2021-04-10T22:28:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="otherTest()[pri:0, instance:testsuite.Testcase1@72057ecf]" started-at="2021-04-10T22:28:15 IST" name="otherTest" finished-at="2021-04-10T22:28:15 IST" depends-on-methods="testsuite.Testcase1.test2" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherTest -->
+      </class> <!-- testsuite.Testcase1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
